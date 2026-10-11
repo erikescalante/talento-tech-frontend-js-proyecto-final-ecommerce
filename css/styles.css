@@ -204,7 +204,7 @@ h2 {
 
 .contact-form {
     width: 100%;
-    max-width: 50rem;
+    max-width: 60rem;
     background: #3b2a1e;
     border: 0px solid;
     border-radius: 1rem;
@@ -245,7 +245,7 @@ h2 {
 }
 
 .input-group textarea {
-  min-height: 10rem;
+  min-height: 15rem;
   max-height: 25rem;
 }
 
