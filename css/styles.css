@@ -64,6 +64,7 @@ h2 {
     font-size: 3rem;
     line-height: 1.15;
     margin: 2rem 0;
+    align-self: flex-start;
 }
 
 /* --------------------------------- HEADER --------------------------------- */
@@ -103,6 +104,7 @@ h2 {
 
 .main-grid-index {
     width: 100%;
+    max-width: 94rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,6 +124,7 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 100%; 
+    max-width: 94rem;
     text-align: center;
 }
 
@@ -191,6 +194,8 @@ h2 {
 
 .button-add-cart:active {
   transform: scale(1);
+    background-color: #fff8f0;
+    color: #bba37e;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -209,16 +214,27 @@ h2 {
 /*                                MEDIA QUERIES                               */
 /* -------------------------------------------------------------------------- */
 
-@media (max-width: 600px) {
+@media (min-width: 140rem) { 
+        .main-grid-index, .welcome {
+        max-width: 190rem; 
+    }
+}
+
+@media (max-width: 90rem) {
+    h2 {
+        align-self: center;
+    }
+    .products, .welcome {
+        max-width: 80rem; 
+    }
+}
+
+@media (max-width: 60rem) {
     .header-nav, .header-list {
         flex-direction: column;
     }
 
     .header-nav, .header-list, .footer-list {
         margin: 0;
-    }
-
-    .products {
-        justify-content: center;
     }
 }
