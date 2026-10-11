@@ -1,3 +1,7 @@
+/* -------------------------------------------------------------------------- */
+/*                                   GENERAL                                  */
+/* -------------------------------------------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,21 +33,19 @@ header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center ;
+    flex-wrap: wrap;
 }
 
 main {
     width: 90%;
-    margin: auto;
+    max-width: 1200px; /* Establece un tope máximo de ancho en pantallas grandes */
+    margin: 0 auto;
     padding-bottom: 2rem;
     flex: 1;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-header {
-    
 }
 
 h1 {
@@ -59,11 +61,6 @@ h2 {
     margin: 2rem 0;
 }
 
-h3 {
-    font-size: 2rem;
-    margin: 0.5 rem 0;
-}
-
 .logo {
     width: 6rem;
     height: 6rem;
@@ -74,9 +71,10 @@ h3 {
     height: 3rem;
 }
 
-.header-nav ul, footer .footer-list{
+.header-list, .footer-list{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -88,15 +86,25 @@ h3 {
     padding: 2rem;
 }
 
+.welcome {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    text-align: center;
+}
+
 .main-grid-index {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 1rem;
 }
 
 .grid-index-item {
+    width: 100%;
     display: flex;
+    justify-content: center; 
     gap: 2rem;
     flex-wrap: wrap;
 }
@@ -137,6 +145,7 @@ img {
     font-family: inherit;
     
     cursor: pointer;
+    margin-top: auto;
 }
 
 .card:hover{
@@ -157,4 +166,23 @@ img {
 ::selection {
   background-color: #bba37e; /* Fondo café cálido */
   color: #fff8f0;            /* Texto en blanco / crema claro */
+}
+
+.card h3 {
+    font-size: 2rem;
+    margin: 0.5 rem 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                MEDIA QUERIES                               */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+    .header-nav, .header-list {
+        flex-direction: column;
+    }
+
+    .header-nav, .header-list, .footer-list {
+        margin: 0;
+    }
 }
