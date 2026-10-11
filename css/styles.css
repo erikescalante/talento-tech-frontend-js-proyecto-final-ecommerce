@@ -1,11 +1,16 @@
-/* -------------------------------------------------------------------------- */
-/*                                   GENERAL                                  */
-/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------*/
+/*                                  General                                 */
+/* -------------------------------------------------------------------------*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+::selection {
+  background-color: #bba37e;
+  color: #fff8f0;
 }
 
 html {
@@ -38,7 +43,7 @@ header, footer {
 
 main {
     width: 90%;
-    max-width: 1200px; /* Establece un tope máximo de ancho en pantallas grandes */
+    max-width: 200rem;
     margin: 0 auto;
     padding-bottom: 2rem;
     flex: 1;
@@ -61,6 +66,8 @@ h2 {
     margin: 2rem 0;
 }
 
+/* --------------------------------- HEADER --------------------------------- */
+
 .logo {
     width: 6rem;
     height: 6rem;
@@ -82,16 +89,17 @@ h2 {
     text-decoration: none;
     font-size: 2rem;
     color: inherit;
-    display: inline-block;
-    padding: 2rem;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    
+    padding: 1rem 1.5rem;
 }
 
-.welcome {
-    display: flex;
-    flex-direction: column;
-    width: 100%; 
-    text-align: center;
-}
+/* -------------------------------------------------------------------------*/
+/*                                  HOME                                    */
+/* -------------------------------------------------------------------------*/
 
 .main-grid-index {
     width: 100%;
@@ -99,15 +107,35 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    text-align: center;
 }
 
 .grid-index-item {
     width: 100%;
+    max-width: 94rem; /* Límite exacto para que quepan máximo 3 tarjetas por fila */
     display: flex;
     justify-content: center; 
     gap: 2rem;
     flex-wrap: wrap;
 }
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    max-width: 94rem;
+    text-align: center;
+}
+
+.main-paragraph {
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: left;
+}
+
+/* -------------------------- TARJETAS DE PRODUCTOS ------------------------- */
 .card {
     width: 30rem;
     background: #3b2a1e;
@@ -126,17 +154,16 @@ h2 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-img {
+.card > img {
     width: 100%;
     height: 18rem;
     object-fit: cover;
 }
 
 .button-add-cart {
-    width: 15rem;
-    height: 3rem;
-    background: #b48d49;
     border: none;
+    padding: 0.6rem 1.6rem;
+    background: #b48d49;
     border-radius: 0.6rem;
     color: #3b2a1e;
 
@@ -155,6 +182,11 @@ img {
   border-color: #bba37e;
 }
 
+.card h3 {
+    font-size: 2rem;
+    margin: 0.5 rem 0;
+}
+
 .button-add-cart:hover {
     transform: scale(1.1);
 }
@@ -163,15 +195,17 @@ img {
   transform: scale(1);
 }
 
-::selection {
-  background-color: #bba37e; /* Fondo café cálido */
-  color: #fff8f0;            /* Texto en blanco / crema claro */
-}
+/* -------------------------------------------------------------------------- */
+/*                                  CONTACTO                                  */
+/* -------------------------------------------------------------------------- */
 
-.card h3 {
-    font-size: 2rem;
-    margin: 0.5 rem 0;
-}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   CARRITO                                  */
+/* -------------------------------------------------------------------------- */
+
+
 
 /* -------------------------------------------------------------------------- */
 /*                                MEDIA QUERIES                               */
@@ -184,5 +218,11 @@ img {
 
     .header-nav, .header-list, .footer-list {
         margin: 0;
+    }
+}
+
+@media (min-width: 190rem) { /*Detalle estético para que las tarjetas se muestren de a 3 o 6, pero no combinaciones raras*/
+    .grid-index-item, .welcome {
+        max-width: 190rem; /* Permite que entren las 6 tarjetas completas en una sola fila */
     }
 }
