@@ -110,11 +110,10 @@ h2 {
     text-align: center;
 }
 
-.grid-index-item {
+.products {
     width: 100%;
-    max-width: 94rem; /* Límite exacto para que quepan máximo 3 tarjetas por fila */
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
@@ -123,7 +122,6 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 100%; 
-    max-width: 94rem;
     text-align: center;
 }
 
@@ -219,10 +217,8 @@ h2 {
     .header-nav, .header-list, .footer-list {
         margin: 0;
     }
-}
 
-@media (min-width: 190rem) { /*Detalle estético para que las tarjetas se muestren de a 3 o 6, pero no combinaciones raras*/
-    .grid-index-item, .welcome {
-        max-width: 190rem; /* Permite que entren las 6 tarjetas completas en una sola fila */
+    .products {
+        justify-content: center;
     }
 }
