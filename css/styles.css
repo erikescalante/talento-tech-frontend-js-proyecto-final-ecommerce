@@ -265,13 +265,13 @@ h2 {
 /*                                MEDIA QUERIES                               */
 /* -------------------------------------------------------------------------- */
 
-@media (min-width: 1400px) { 
+@media (min-width: 140rem) { 
         .main-grid-index, .welcome {
         max-width: 190rem; 
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 90rem) {
     h2 {
         align-self: center;
     }
@@ -280,7 +280,7 @@ h2 {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .header-nav, .header-list {
         flex-direction: column;
         justify-content: center;
