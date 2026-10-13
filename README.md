@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/60WcGA7PcpqB53IxNf/giphy.gif" width="40" alt="Kitten Café Sticker"> KITTEN CAFÉ | PROYECTO E-COMMERCE
+# <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/60WcGA7PcpqB53IxNf/giphy.gif" width="40" alt="Kitten Café Sticker"> KITTEN CAFÉ / PROYECTO E-COMMERCE
 
 Proyecto de e-commerce realizado para el curso de Front-End JS de **Talento Tech**.
 
@@ -61,7 +61,7 @@ kitten-cafe/
 
 ## Autor
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/2wh8AaMZ2jtRseDQ3C/giphy.gif" align="right" width="160" alt="Kitten Café Autor Sticker">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/2wh8AaMZ2jtRseDQ3C/giphy.gif" align="right" width="180" alt="Kitten Café Autor Sticker">
 
 - GitHub: [@erikescalante](https://github.com/erikescalante)
 - Email: [erikescalante.edu@gmail.com](mailto:erikescalante.edu@gmail.com)
