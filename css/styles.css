@@ -231,6 +231,7 @@ h2 {
 }
 
 .btn:active {
+    transform: scale(1);
     background-color: #fff8f0;
     color: #bba37e;
     transition: none;  /*Cambio de color del botón sin transición (me gusta más así, je)*/
