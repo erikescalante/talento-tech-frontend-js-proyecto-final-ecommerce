@@ -46,7 +46,7 @@ html {
 body {
     font-family: "Comic Relief" ,sans-serif;
     font-size: 1.6rem;
-    background-color: #4d3728;
+    background-color: #4A382C;
     color: #bba37e;
 
     display: flex;
@@ -83,7 +83,7 @@ h2 {
 /* ----------------------------- HEADER Y FOOTER ---------------------------- */
 
 header, footer {
-    background: #34261c;
+    background: #342820;
     color: inherit;
     width: 100%;
     padding: 1rem 4rem;
@@ -170,7 +170,7 @@ h2 {
 /* -------------------------- TARJETAS DE PRODUCTOS ------------------------- */
 .card {
     width: 30rem;
-    background: #3b2a1e;
+    background: #342820;
     border: 0px solid;
     border-radius: 1rem;
     overflow: hidden;
@@ -197,7 +197,7 @@ h2 {
     padding: 0.6rem 1.6rem;
     background: #b48d49;
     border-radius: 0.6rem;
-    color: #3b2a1e;
+    color: #342820;
 
     font-size: 1.6rem;
     font-weight: bold;
@@ -242,6 +242,12 @@ h2 {
     transition: 0.3s; 
 }
 
+.header-nav a.active {
+    background-color: #4A382C;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                  CONTACTO                                  */
 /* -------------------------------------------------------------------------- */
@@ -249,7 +255,7 @@ h2 {
 .contact-form {
     width: 100%;
     max-width: 60rem;
-    background: #3b2a1e;
+    background: #342820;
     border: 0px solid;
     border-radius: 1rem;
 
