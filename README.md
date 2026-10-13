@@ -47,14 +47,22 @@ También trabajé en la adaptación a distintos dispositivos, las tarjetas de pr
 ```text
 kitten-cafe/
 │
-├── index.html                # Página principal (Home)
 ├── css/
-│   └── styles.css            # Hoja de estilos global del proyecto
+│   └── styles.css                        # Hoja de estilos global del proyecto
+├── fonts/
+│   ├── ComicRelief-Bold.ttf              # Fuente local Comic Relief (Negrita)
+│   ├── ComicRelief-Regular.ttf           # Fuente local Comic Relief (Regular)
+│   └── PlaypenSans-VariableFont_wght.ttf # Fuente local Playpen Sans (Variable)
+├── img/                                  # Logotipos, íconos SVG e imágenes de productos
 ├── pages/
-│   ├── shopping-cart.html    # Página del carrito de compras
-│   ├── contact.html          # Formulario de contacto
-│   └── about.html            # Información sobre la cafetería
-└── img/                      # Logotipos, íconos SVG e imágenes de productos
+│   ├── about.html                        # Información sobre la cafetería
+│   ├── contact.html                      # Formulario de contacto
+│   └── shopping-cart.html                # Página del carrito de compras
+├── .gitignore                            # Exclusión de archivos temporales del sistema
+├── index.html                            # Página principal (Home)
+├── LICENSE                               # Licencia del proyecto
+└── README.md                             # Documentación del repositorio
+
 
 ```
 
