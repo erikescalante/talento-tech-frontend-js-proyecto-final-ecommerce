@@ -55,6 +55,7 @@ kitten-cafe/
 │   ├── contact.html          # Formulario de contacto
 │   └── about.html            # Información sobre la cafetería
 └── img/                      # Logotipos, íconos SVG e imágenes de productos
+
 ```
 
 ---

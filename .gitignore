@@ -1,0 +1,37 @@
+# ==========================================
+# Archivos de sistema operativo 
+# ==========================================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Configuración local de editor (VS Code)
+# ==========================================
+.vscode/
+*.code-workspace
+
+# ==========================================
+# Archivos temporales y de caché
+# ==========================================
+*.tmp
+*.log
+.cache/
+
+# ==========================================
+# Archivos de entorno y credenciales
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# Dependencias y construcción 
+# ==========================================
+node_modules/
+dist/
+build/
