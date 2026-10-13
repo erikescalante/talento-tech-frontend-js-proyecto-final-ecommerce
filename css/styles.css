@@ -249,6 +249,37 @@ h2 {
     font-weight: bold;
 }
 
+/* ------------------------------- PROMOCIONES ------------------------------ */
+
+.combo-card {
+    position: relative;
+}
+
+/* Etiqueta flotante de descuento */
+.badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #e63946;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.old-price {
+    font-size: 1.6rem;
+    text-decoration: line-through;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                  CONTACTO                                  */
 /* -------------------------------------------------------------------------- */
