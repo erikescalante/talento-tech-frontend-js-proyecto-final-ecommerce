@@ -4,7 +4,7 @@
 
 Proyecto de e-commerce realizado para el curso de Front-End JS de **Talento Tech**.
 
-[Sobre el proyecto](#sobre-el-proyecto) · [Páginas](#qué-podés-encontrar-en-él) · [Tecnologías](#tecnologías-utilizadas) · [Autor](#autor)
+🌐 **Visitá Kitten Café:** [kitten-cafe.onrender.com](https://kitten-cafe.onrender.com/)
 
 </div>
 
