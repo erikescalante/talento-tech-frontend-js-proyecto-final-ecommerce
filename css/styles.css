@@ -67,6 +67,7 @@ header, footer {
     justify-content: space-between;
     align-items: center ;
     flex-wrap: wrap;
+    
 }
 
 footer {
@@ -197,14 +198,22 @@ h2 {
     margin-top: auto;
 }
 
-.btn:hover {
-    transform: scale(1.05);
-}
-
 .btn:active {
   transform: scale(1);
     background-color: #fff8f0;
     color: #bba37e;
+}
+
+.logo:hover,  
+.header-list li:hover, 
+.btn:hover { 
+    transform: scale(1.05); 
+    transition: 0.3s; 
+}
+
+.footer-icon:hover {
+    transform: scale(1.15); 
+    transition: 0.3s; 
 }
 
 /* -------------------------------------------------------------------------- */
