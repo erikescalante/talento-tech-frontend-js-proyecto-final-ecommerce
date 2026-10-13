@@ -223,17 +223,17 @@ h2 {
     margin-top: auto;
 }
 
-.btn:active {
-  transform: scale(1);
-    background-color: #fff8f0;
-    color: #bba37e;
-}
-
 .logo:hover,  
 .header-list li:hover, 
 .btn:hover { 
     transform: scale(1.05); 
     transition: 0.3s; 
+}
+
+.btn:active {
+    background-color: #fff8f0;
+    color: #bba37e;
+    transition: none;  /*Cambio de color del botón sin transición (me gusta más así, je)*/
 }
 
 .footer-icon:hover {
