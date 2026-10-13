@@ -12,27 +12,27 @@ Bienvenido al repositorio de **Kitten Café**, un proyecto de e-commerce desarro
 
 ---
 
-## ☕🐾 Sobre el proyecto
+## Sobre el proyecto
 
 **Kitten Café** es una cafetería online ficticia que combina dos cosas que van muy bien juntas: el café y los gatos. La idea fue crear una página agradable y fácil de recorrer, con una estética cálida y detalles inspirados en el mundo de las cafeterías.
 
 Este proyecto forma parte de mi aprendizaje en desarrollo frontend. Me sirvió para practicar la estructura de páginas con HTML, trabajar los estilos con CSS y pensar cómo se adapta un sitio a distintos tamaños de pantalla.
 
 
-## 🐱 ¿Qué podés encontrar?
+## ¿Qué podés encontrar en él?
 
 - **Inicio:** una presentación de Kitten Café y un catálogo con bebidas y postres.
 - **Carrito:** una página para ver la selección de productos y continuar con el proceso de compra.
 - **Contacto:** un formulario para enviar consultas o mensajes.
 - **Sobre nosotros:** una sección para conocer el concepto de la cafetería.
 
-## 🎨 Un poco del diseño
+## Un poco acerca del diseño
 
 Quise darle al sitio una identidad visual propia, con una paleta de tonos café, crema y dorado, tipografías amigables e ilustraciones e íconos relacionados con la temática.
 
 También trabajé en la adaptación a distintos dispositivos, las tarjetas de productos y pequeños efectos al pasar el cursor para que navegar por la tienda resulte más agradable.
 
-## 🧰 Tecnologías
+## Tecnologías utilizadas
 
 - **HTML5** para organizar el contenido.
 - **CSS3** para los estilos, las tarjetas y la distribución de los elementos.
@@ -41,7 +41,7 @@ También trabajé en la adaptación a distintos dispositivos, las tarjetas de pr
 - **Google Fonts**: Playpen Sans y Comic Relief.
 - **Git y GitHub** para llevar el control de versiones y compartir el proyecto.
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 
 ```text
@@ -59,7 +59,7 @@ kitten-cafe/
 
 ---
 
-## 👤 Autor
+## Autor
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/2wh8AaMZ2jtRseDQ3C/giphy.gif" align="right" width="140" alt="Kitten Café Autor Sticker">
 
