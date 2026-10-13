@@ -49,7 +49,6 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    font-weight: bold;
     line-height: 1.15;
     margin: 2rem 0;
     align-self: flex-start;
@@ -231,7 +230,7 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.input.group {
+.input-group {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
@@ -259,7 +258,7 @@ h2 {
   max-height: 25rem;
 }
 
-.contacto {
+.contact {
   width: 100%;
   display: flex;
   flex-direction: column;
