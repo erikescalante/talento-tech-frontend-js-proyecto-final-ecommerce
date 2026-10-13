@@ -61,13 +61,11 @@ kitten-cafe/
 
 ## 👤 Autor
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/2wh8AaMZ2jtRseDQ3C/giphy.gif" align="right" width="90" alt="Kitten Café Autor Sticker">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/2wh8AaMZ2jtRseDQ3C/giphy.gif" align="right" width="140" alt="Kitten Café Autor Sticker">
 
 - GitHub: [@erikescalante](https://github.com/erikescalante)
 - Email: [erikescalante.edu@gmail.com](mailto:erikescalante.edu@gmail.com)
 - Instagram: [@_erikescalante](https://www.instagram.com/_erikescalante)
 - [Contacto por WhatsApp](https://wa.me/qr/GWYOV75KR3HXA1)
-
----
 
 *Proyecto realizado con ☕ y 🐾 para el curso Front-End JS de Talento Tech.*
