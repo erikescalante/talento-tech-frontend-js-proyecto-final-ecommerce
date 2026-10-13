@@ -43,7 +43,6 @@ También trabajé en la adaptación a distintos dispositivos, las tarjetas de pr
 
 ## Estructura del proyecto
 
-
 ```text
 kitten-cafe/
 │
