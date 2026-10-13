@@ -1,55 +1,48 @@
-# <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/60WcGA7PcpqB53IxNf/giphy.gif" align="left" width="40" alt="Kitten Café Sticker"> Kitten Café - Proyecto E-Commerce de Front-End 
+<div align="center">
+
+# <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/60WcGA7PcpqB53IxNf/giphy.gif" width="40" alt="Kitten Café Sticker"> KITTEN CAFÉ - PROYECTO E-COMMERCE
+
+Proyecto de e-commerce realizado para el curso de Front-End JS de **Talento Tech**.
+
+[Sobre el proyecto](#-sobre-el-proyecto) · [Páginas](#-qué-podés-encontrar) · [Tecnologías](#-tecnologías) · [Autor](#-autor)
+
+</div>
 
 Bienvenido al repositorio de **Kitten Café**, un proyecto de e-commerce desarrollado por Erik Escalante para el curso **Front-End JS** de **Talento Tech**. La cafetería de gatitos. Esta plataforma web fusiona la pasión por el café de especialidad con el encanto de los gatos.
 
 ---
 
-## 📌 Tabla de Contenidos
-- [Descripción del Proyecto](#-descripción-del-proyecto)
-- [Características Principales](#-características-principales)
-- [Páginas del Sitio](#-páginas-del-sitio)
-- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Autor](#-autor)
+## ☕🐾 Sobre el proyecto
 
----
+**Kitten Café** es una cafetería online ficticia que combina dos cosas que van muy bien juntas: el café y los gatos. La idea fue crear una página agradable y fácil de recorrer, con una estética cálida y detalles inspirados en el mundo de las cafeterías.
 
-## 📝 Descripción del Proyecto
+Este proyecto forma parte de mi aprendizaje en desarrollo frontend. Me sirvió para practicar la estructura de páginas con HTML, trabajar los estilos con CSS y pensar cómo se adapta un sitio a distintos tamaños de pantalla.
 
-**Kitten Café** es una tienda en línea diseñada para amantes del café y de los gatos. El sitio web presenta un catálogo interactivo estructurado de bebidas y postres, una navegación limpia e iconografía visual para mejorar la experiencia del usuario. 
 
-El proyecto enfoca sus bases en una arquitectura HTML5 semántica y un diseño dinámico mediante CSS3, empleando Flexbox, CSS Grid y Media Queries para garantizar una perfecta adaptación a dispositivos móviles, tablets y monitores ultra-anchos.
+## 🐱 ¿Qué podés encontrar?
 
----
+- **Inicio:** una presentación de Kitten Café y un catálogo con bebidas y postres.
+- **Carrito:** una página para ver la selección de productos y continuar con el proceso de compra.
+- **Contacto:** un formulario para enviar consultas o mensajes.
+- **Sobre nosotros:** una sección para conocer el concepto de la cafetería.
 
-## ✨ Características Principales
+## 🎨 Un poco del diseño
 
-* **Diseño Responsive:** Adaptación fluida de la grilla de productos desde 1 columna en móviles hasta 6 columnas en pantallas grandes.
-* **Tarjetas Interactivas:** Tarjetas de productos (*cards*) con efectos suaves de animación `:hover`, elevación 3D y alineación automática de botones mediante Flexbox.
-* **Personalización Estética:** Paleta de colores cálidos temática (tonos café, crema y dorado) con resaltado de texto personalizado (`::selection`).
-* **Iconografía e Integración SVG:** Navegación alineada verticalmente con íconos SVG nítidos en encabezado y pie de página.
+Quise darle al sitio una identidad visual propia, con una paleta de tonos café, crema y dorado, tipografías amigables e ilustraciones e íconos relacionados con la temática.
 
----
+También trabajé en la adaptación a distintos dispositivos, las tarjetas de productos y pequeños efectos al pasar el cursor para que navegar por la tienda resulte más agradable.
 
-## 🌐 Páginas del Sitio
+## 🧰 Tecnologías
 
-1. **Home (`index.html`):** Página principal con sección de bienvenida y catálogo completo dividido en *Our Drinks* (bebidas) y *Our Desserts* (postres).
-2. **Carrito de Compras (`pages/shopping-cart.html`):** Interfaz para visualizar la selección de productos y proceder al checkout.
-3. **Contacto (`pages/contact.html`):** Formulario estilizado para consultas y mensajes.
-4. **Sobre Nosotros (`pages/about.html`):** Sección dedicada a presentar la historia y el concepto de Kitten Café.
+- **HTML5** para organizar el contenido.
+- **CSS3** para los estilos, las tarjetas y la distribución de los elementos.
+- **Flexbox y CSS Grid** para armar los diseños.
+- **Media Queries** para adaptar la página a diferentes pantallas.
+- **Google Fonts**: Playpen Sans y Comic Relief.
+- **Git y GitHub** para llevar el control de versiones y compartir el proyecto.
 
----
+## 📂 Estructura del proyecto
 
-## 🛠️ Tecnologías Utilizadas
-
-* **HTML5:** Estructuración semántica con etiquetas `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` y `<footer>`.
-* **CSS3:** Estilos avanzados mediante Flexbox, CSS Grid, pseudoclases (`:hover`, `:active`, `::selection`) y Media Queries para responsividad.
-* **Google Fonts:** Fuentes tipográficas *"Playpen Sans"* y *"Comic Relief"*.
-* **Git & GitHub:** Control de versiones y alojamiento de repositorio remoto.
-
----
-
-## 📂 Estructura del Proyecto
 
 ```text
 kitten-cafe/
@@ -68,14 +61,13 @@ kitten-cafe/
 
 ## 👤 Autor
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/2wh8AaMZ2jtRseDQ3C/giphy.gif" align="right" width="115" alt="Kitten Café Autor Sticker">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Vkb2hnMHo5b2Exa2V0eTZhbmRnYXg1cDExc2s3d3d6bWhtZ2RrciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/2wh8AaMZ2jtRseDQ3C/giphy.gif" align="right" width="90" alt="Kitten Café Autor Sticker">
 
-* **Erik Escalante** - *Desarrollo Front-End*
-  * **GitHub:** [@erikescalante](https://github.com/erikescalante)
-  * **E-Mail:** [erikescalante.edu@gmail.com](mailto:erikescalante.edu@gmail.com)
-  * **Instagram:** [@_erikescalante](https://www.instagram.com/_erikescalante)
-  * **WhatsApp:** [Contacto Directo](https://wa.me/qr/GWYOV75KR3HXA1)
+- GitHub: [@erikescalante](https://github.com/erikescalante)
+- Email: [erikescalante.edu@gmail.com](mailto:erikescalante.edu@gmail.com)
+- Instagram: [@_erikescalante](https://www.instagram.com/_erikescalante)
+- [Contacto por WhatsApp](https://wa.me/qr/GWYOV75KR3HXA1)
 
 ---
 
-*Proyecto desarrollado para el curso **Front-End JS** de **Talento Tech**.*
+*Proyecto realizado con ☕ y 🐾 para el curso Front-End JS de Talento Tech.*
