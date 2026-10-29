@@ -133,7 +133,7 @@ footer {
 /*                                  HOME                                    */
 /* -------------------------------------------------------------------------*/
 
-.main-grid-index {
+#main-grid-index {
     width: 100%;
     max-width: 94rem;
     display: flex;
@@ -348,7 +348,7 @@ h2 {
 /* -------------------------------------------------------------------------- */
 
 @media (min-width: 140rem) { 
-        .main-grid-index, .welcome {
+        #main-grid-index, .welcome {
         max-width: 190rem; 
     }
 }

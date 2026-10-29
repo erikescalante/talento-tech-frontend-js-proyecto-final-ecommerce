@@ -55,95 +55,40 @@ const drinks = [
     }
 ];
 
-const desserts = [
-    {
-        id: 1, 
-        img: {
-            link: "../img/churros.jpeg", 
-            alt: "churros image"
-        }, 
-        name: "CHURROS X6", 
-        price: 8200
-    },
-    {
-        id: 2, 
-        img: {
-            link: "../img/brownie.jpg", 
-            alt: "brownie image"
-        }, 
-        name: "BROWNIE", 
-        price: 4200
-    },
-    {
-        id: 3, 
-        img: {
-            link: "../img/flan.jpg", 
-            alt: "flan image"
-        }, 
-        name: "FLAN", 
-        price: 3600
-    },
-    {
-        id: 4, 
-        img: {
-            link: "../img/chocotorta.jpg", 
-            alt: "chocotorta image"
-        }, 
-        name: "CHOCOTORTA", 
-        price: 4600
-    },
-    {
-        id: 5, 
-        img: {
-            link: "../img/tiramisu.jpg", 
-            alt: "tiramisu image"
-        }, 
-        name: "TIRAMISU", 
-        price: 4200
-    },
-    {
-        id: 6, 
-        img: {
-            link: "../img/bread-pudding.jpg", 
-            alt: "bread pudding image"
-        }, 
-        name: "BREAD PUDDING", 
-        price: 3600
-    }
-];
+const mainContainer = document.getElementById("main-grid-index");
 
-const combos = [
-    {
-        id: 1, 
-        img: {
-            link: "../img/cafe-medialunas.png", 
-            alt: "coffee and croissant combo"
-        }, 
-        name: "COFFEE & 2 CROISSANTS", 
-        oldPrice: 12499,
-        price: 11000,
-        percentDiscount: 15
-    },
-    {
-        id: 2, 
-        img: {
-            link: "../img/cappuccino-and-brownie.png", 
-            alt: "coffee and brownie combo"
-        }, 
-        name: "COFFEE & BROWNIE", 
-        oldPrice: 14000,
-        price: 12000,
-        percentDiscount: 15
-    },
-    {
-        id: 3, 
-        img: {
-            link: "../img/chocolate-churros.jpg", 
-            alt: "chocolate and churros combo"
-        }, 
-        name: "CHOCOLATE & 3 CHURROS", 
-        oldPrice: 11200,
-        price: 10000,
-        percentDiscount: 10
+if(drinks.length !== 0) {
+    const drinksTitle = document.createElement("h2");
+    drinksTitle.textContent = "Our Drinks";
+    mainContainer.appendChild(drinksTitle);
+
+    const firstSection = document.createElement("section");
+    firstSection.classList.add("products");
+
+    for(const   d of drinks) {
+        const card = document.createElement("article");
+        card.classList.add("card");
+
+        const image = document.createElement("img");
+        image.src = d.img.link;
+        image.alt = d.img.alt;
+        card.appendChild(image);
+
+        const name = document.createElement("h3");
+        name.textContent = d.name;
+        card.appendChild(name);
+
+        const price = document.createElement("p");
+        price.classList.add("product-price");
+        price.textContent = "$" + d.price;
+        card.appendChild(price);
+
+        const btn = document.createElement("button");
+        btn.classList.add("btn");
+        btn.textContent = "add to cart";
+        card.appendChild(btn);
+
+        firstSection.appendChild(card);
     }
-];
+    mainContainer.appendChild(firstSection);
+}
