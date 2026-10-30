@@ -148,6 +148,13 @@ const combos = [
     }
 ];
 
+const dotsForNumber = (price) => {
+    if (isNaN(price) || price === null || price === '') return price;
+    
+    return Number(price).toLocaleString('es-AR');
+};
+
+
 const mainContainer = document.getElementById("main-grid-index");
 
 if(drinks.length !== 0) {
@@ -173,7 +180,7 @@ if(drinks.length !== 0) {
 
         const price = document.createElement("p");
         price.classList.add("product-price");
-        price.textContent = "$" + d.price;
+        price.textContent = "$" + dotsForNumber(d.price);
         card.appendChild(price);
 
         const btn = document.createElement("button");
@@ -209,7 +216,7 @@ if(desserts.length !== 0) {
 
         const price = document.createElement("p");
         price.classList.add("product-price");
-        price.textContent = "$" + d.price;
+        price.textContent = "$" + dotsForNumber(d.price);
         card.appendChild(price);
 
         const btn = document.createElement("button");
@@ -254,12 +261,12 @@ if(combos.length !== 0) {
 
         const oldPrice = document.createElement("span");
         oldPrice.classList.add("old-price");
-        oldPrice.textContent = "$" + c.oldPrice;
+        oldPrice.textContent = "$" + dotsForNumber(c.oldPrice);
         priceContainer.appendChild(oldPrice);
 
         const price = document.createElement("span");
         price.classList.add("product-price");
-        price.textContent = "$" + c.price;
+        price.textContent = "$" + dotsForNumber(c.price);
         priceContainer.appendChild(price);
 
         card.appendChild(priceContainer);
