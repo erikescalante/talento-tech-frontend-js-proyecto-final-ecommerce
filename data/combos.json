@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1, 
+        "img": {
+            "link": "img/cafe-medialunas.png", 
+            "alt": "coffee and croissant combo"
+        }, 
+        "name": "COFFEE & 2 CROISSANTS", 
+        "oldPrice": 12499,
+        "price": 11000,
+        "percentDiscount": 15
+    },
+    {
+        "id": 2, 
+        "img": {
+            "link": "img/cappuccino-and-brownie.png", 
+           "alt": "coffee and brownie combo"
+        }, 
+        "name": "COFFEE & BROWNIE", 
+        "oldPrice": 14000,
+        "price": 12000,
+        "percentDiscount": 15
+    },
+    {
+        "id": 3, 
+        "img": {
+            "link": "img/chocolate-churros.jpg", 
+            "alt": "chocolate and churros combo"
+        }, 
+        "name": "CHOCOLATE & 3 CHURROS", 
+        "oldPrice": 11200,
+        "price": 10000,
+        "percentDiscount": 10
+    }
+]

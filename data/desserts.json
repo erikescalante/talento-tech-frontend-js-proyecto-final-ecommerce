@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1, 
+        "img": {
+            "link": "img/churros.jpeg", 
+            "alt": "churros image"
+        }, 
+        "name": "CHURROS X6", 
+        "price": 8200
+    },
+    {
+        "id": 2, 
+        "img": {
+            "link": "img/brownie.jpg", 
+            "alt": "brownie image"
+        }, 
+        "name": "BROWNIE", 
+        "price": 4200
+    },
+    {
+        "id": 3, 
+        "img": {
+            "link": "img/flan.jpg", 
+            "alt": "flan image"
+        }, 
+        "name": "FLAN", 
+        "price": 3600
+    },
+    {
+        "id": 4, 
+        "img": {
+            "link": "img/chocotorta.jpg", 
+            "alt": "chocotorta image"
+        }, 
+        "name": "CHOCOTORTA", 
+        "price": 4600
+    },
+    {
+        "id": 5, 
+        "img": {
+            "link": "img/tiramisu.jpg", 
+            "alt": "tiramisu image"
+        }, 
+        "name": "TIRAMISU", 
+        "price": 4200
+    },
+    {
+        "id": 6, 
+        "img": {
+            "link": "img/bread-pudding.jpg", 
+            "alt": "bread pudding image"
+        }, 
+        "name": "BREAD PUDDING", 
+        "price": 3600
+    }
+]

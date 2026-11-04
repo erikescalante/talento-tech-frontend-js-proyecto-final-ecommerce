@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1, 
+        "img": {
+            "link": "img/cappuccino.jpeg", 
+            "alt": "cappuccino image"
+        }, 
+        "name": "CAPPUCCINO", 
+        "price": 9500
+    },
+    {
+        "id": 2, 
+        "img": {
+            "link": "img/espresso.jpg", 
+            "alt": "espresso image"
+        }, 
+        "name": "ESPRESSO", 
+        "price": 8000
+    },
+    {
+        "id": 3, 
+        "img": {
+            "link": "img/caramel-latte.jpg", 
+            "alt": "caramel latte image"
+        }, 
+        "name": "CARAMEL LATTE", 
+        "price": 8600
+    },
+    {
+        "id": 4, 
+        "img": {
+            "link": "img/te.webp", 
+            "alt": "tea image"
+        }, 
+        "name": "TEA", 
+        "price": 5600
+    },
+    {
+        "id": 5, 
+        "img": {
+            "link": "img/chocolate-caliente.png", 
+            "alt": "chocolate milk image"
+        }, 
+        "name": "CHOCOLATE MILK", 
+        "price": 6000
+    },
+    {
+        "id": 6, 
+        "img": {
+            "link": "img/americano.jpg", 
+            "alt": "americano coffee image"
+        }, 
+        "name": "AMERICANO", 
+        "price": 7600
+    }
+]
