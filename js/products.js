@@ -2,7 +2,7 @@ export const drinks = [
     {
         id: 1, 
         img: {
-            link: "../img/cappuccino.jpeg", 
+            link: "img/cappuccino.jpeg", 
             alt: "cappuccino image"
         }, 
         name: "CAPPUCCINO", 
@@ -11,7 +11,7 @@ export const drinks = [
     {
         id: 2, 
         img: {
-            link: "../img/espresso.jpg", 
+            link: "img/espresso.jpg", 
             alt: "espresso image"
         }, 
         name: "ESPRESSO", 
@@ -20,7 +20,7 @@ export const drinks = [
     {
         id: 3, 
         img: {
-            link: "../img/caramel-latte.jpg", 
+            link: "img/caramel-latte.jpg", 
             alt: "caramel latte image"
         }, 
         name: "CARAMEL LATTE", 
@@ -29,7 +29,7 @@ export const drinks = [
     {
         id: 4, 
         img: {
-            link: "../img/te.webp", 
+            link: "img/te.webp", 
             alt: "tea image"
         }, 
         name: "TEA", 
@@ -38,7 +38,7 @@ export const drinks = [
     {
         id: 5, 
         img: {
-            link: "../img/chocolate-caliente.png", 
+            link: "img/chocolate-caliente.png", 
             alt: "chocolate milk image"
         }, 
         name: "CHOCOLATE MILK", 
@@ -47,7 +47,7 @@ export const drinks = [
     {
         id: 6, 
         img: {
-            link: "../img/americano.jpg", 
+            link: "img/americano.jpg", 
             alt: "americano coffee image"
         }, 
         name: "AMERICANO", 
@@ -59,7 +59,7 @@ export const desserts = [
     {
         id: 1, 
         img: {
-            link: "../img/churros.jpeg", 
+            link: "img/churros.jpeg", 
             alt: "churros image"
         }, 
         name: "CHURROS X6", 
@@ -68,7 +68,7 @@ export const desserts = [
     {
         id: 2, 
         img: {
-            link: "../img/brownie.jpg", 
+            link: "img/brownie.jpg", 
             alt: "brownie image"
         }, 
         name: "BROWNIE", 
@@ -77,7 +77,7 @@ export const desserts = [
     {
         id: 3, 
         img: {
-            link: "../img/flan.jpg", 
+            link: "img/flan.jpg", 
             alt: "flan image"
         }, 
         name: "FLAN", 
@@ -86,7 +86,7 @@ export const desserts = [
     {
         id: 4, 
         img: {
-            link: "../img/chocotorta.jpg", 
+            link: "img/chocotorta.jpg", 
             alt: "chocotorta image"
         }, 
         name: "CHOCOTORTA", 
@@ -95,7 +95,7 @@ export const desserts = [
     {
         id: 5, 
         img: {
-            link: "../img/tiramisu.jpg", 
+            link: "img/tiramisu.jpg", 
             alt: "tiramisu image"
         }, 
         name: "TIRAMISU", 
@@ -104,7 +104,7 @@ export const desserts = [
     {
         id: 6, 
         img: {
-            link: "../img/bread-pudding.jpg", 
+            link: "img/bread-pudding.jpg", 
             alt: "bread pudding image"
         }, 
         name: "BREAD PUDDING", 
@@ -116,7 +116,7 @@ export const combos = [
     {
         id: 1, 
         img: {
-            link: "../img/cafe-medialunas.png", 
+            link: "img/cafe-medialunas.png", 
             alt: "coffee and croissant combo"
         }, 
         name: "COFFEE & 2 CROISSANTS", 
@@ -127,7 +127,7 @@ export const combos = [
     {
         id: 2, 
         img: {
-            link: "../img/cappuccino-and-brownie.png", 
+            link: "img/cappuccino-and-brownie.png", 
             alt: "coffee and brownie combo"
         }, 
         name: "COFFEE & BROWNIE", 
@@ -138,7 +138,7 @@ export const combos = [
     {
         id: 3, 
         img: {
-            link: "../img/chocolate-churros.jpg", 
+            link: "img/chocolate-churros.jpg", 
             alt: "chocolate and churros combo"
         }, 
         name: "CHOCOLATE & 3 CHURROS", 
