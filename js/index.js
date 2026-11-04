@@ -1,4 +1,7 @@
 import { drinks, desserts, combos } from "./products.js";
+import { getCart } from "./storage.js";
+import { updateCounter } from "./ui.js";
+import { addToCart } from "./shopping-cart-functions.js";
 
 const dotsForNumber = (price) => {
     if (isNaN(price) || price === null || price === '') return price;
@@ -17,29 +20,31 @@ const renderHome = () => {
         const firstSection = document.createElement("section");
         firstSection.classList.add("products");
 
-        for(const d of drinks) {
+        for(const drink of drinks) {
             const card = document.createElement("article");
             card.classList.add("card");
 
             const image = document.createElement("img");
-            image.src = "./" + d.img.link;
-            image.alt = d.img.alt;
-            card.appendChild(image);
-
+            image.src = "./" + drink.img.link;
+            image.alt = drink.img.alt;
+            
             const name = document.createElement("h3");
-            name.textContent = d.name;
-            card.appendChild(name);
-
+            name.textContent = drink.name;
+            
             const price = document.createElement("p");
             price.classList.add("product-price");
-            price.textContent = "$" + dotsForNumber(d.price);
-            card.appendChild(price);
-
+            price.textContent = "$" + dotsForNumber(drink.price);
+            
             const btn = document.createElement("button");
             btn.classList.add("btn");
             btn.textContent = "add to cart";
+            btn.addEventListener("click", () => addToCart(drink))
+            
+            card.appendChild(image);
+            card.appendChild(name);
+            card.appendChild(price);
             card.appendChild(btn);
-
+            
             firstSection.appendChild(card);
         }
         mainContainer.appendChild(firstSection);
@@ -53,27 +58,29 @@ const renderHome = () => {
         const secondSection = document.createElement("section");
         secondSection.classList.add("products");
 
-        for(const d of desserts) {
+        for(const dessert of desserts) {
             const card = document.createElement("article");
             card.classList.add("card");
 
             const image = document.createElement("img");
-            image.src = "./" + d.img.link;
-            image.alt = d.img.alt;
-            card.appendChild(image);
-
+            image.src = "./" + dessert.img.link;
+            image.alt = dessert.img.alt;
+            
             const name = document.createElement("h3");
-            name.textContent = d.name;
-            card.appendChild(name);
-
+            name.textContent = dessert.name;
+            
             const price = document.createElement("p");
             price.classList.add("product-price");
-            price.textContent = "$" + dotsForNumber(d.price);
-            card.appendChild(price);
-
+            price.textContent = "$" + dotsForNumber(dessert.price);
+            
             const btn = document.createElement("button");
             btn.classList.add("btn");
             btn.textContent = "add to cart";
+            btn.addEventListener("click", () => addToCart(dessert))
+            
+            card.appendChild(image);
+            card.appendChild(name);
+            card.appendChild(price);
             card.appendChild(btn);
 
             secondSection.appendChild(card);
@@ -89,49 +96,54 @@ const renderHome = () => {
         const thirdSection = document.createElement("section");
         thirdSection.classList.add("products");
 
-        for(const c of combos) {
+        for(const combo of combos) {
             const card = document.createElement("article");
             card.classList.add("card");
             card.classList.add("combo-card");
 
             const badge = document.createElement("span");
             badge.classList.add("badge");
-            badge.textContent = c.percentDiscount + "% OFF";
-            card.appendChild(badge); //Esto es un badge "flotante" que indica el descuento aplicado en la promo correspondiente (aplicando css queda facherisimo)
-
+            badge.textContent = combo.percentDiscount + "% OFF";
+            
             const image = document.createElement("img");
-            image.src = "./" + c.img.link;
-            image.alt = c.img.alt;
-            card.appendChild(image);
-
+            image.src = "./" + combo.img.link;
+            image.alt = combo.img.alt;
+            
             const name = document.createElement("h3");
-            name.textContent = c.name;
-            card.appendChild(name);
-
+            name.textContent = combo.name;
+            
             const priceContainer = document.createElement("div");
             priceContainer.classList.add("price-container");
-
+            
             const oldPrice = document.createElement("span");
             oldPrice.classList.add("old-price");
-            oldPrice.textContent = "$" + dotsForNumber(c.oldPrice);
+            oldPrice.textContent = "$" + dotsForNumber(combo.oldPrice);
             priceContainer.appendChild(oldPrice);
-
+            
             const price = document.createElement("span");
             price.classList.add("product-price");
-            price.textContent = "$" + dotsForNumber(c.price);
+            price.textContent = "$" + dotsForNumber(combo.price);
             priceContainer.appendChild(price);
-
-            card.appendChild(priceContainer);
-
+            
             const btn = document.createElement("button");
             btn.classList.add("btn");
             btn.textContent = "add to cart";
+            btn.addEventListener("click", () => addToCart(combo))
+            
+            card.appendChild(badge); //Esto es un badge "flotante" que indica el descuento aplicado en la promo correspondiente (aplicando css queda facherisimo)
+            card.appendChild(image);
+            card.appendChild(name);
+            card.appendChild(priceContainer);
             card.appendChild(btn);
 
             thirdSection.appendChild(card);
         }
         mainContainer.appendChild(thirdSection);
     }
-}
+};
 
-renderHome();
+document.addEventListener("DOMContentLoaded", () => {
+    const cart = getCart();
+    updateCounter(cart);
+    renderHome();
+});
