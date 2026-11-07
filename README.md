@@ -44,19 +44,35 @@ También trabajé en la adaptación a distintos dispositivos, las tarjetas de pr
 ## Estructura del proyecto
 
 ```text
-kitten-cafe/
+ecommerce-js/
 │
 ├── css/
 │   └── styles.css                        # Hoja de estilos global del proyecto
-├── fonts/
-│   ├── ComicRelief-Bold.ttf              # Fuente local Comic Relief (Negrita)
-│   ├── ComicRelief-Regular.ttf           # Fuente local Comic Relief (Regular)
-│   └── PlaypenSans-VariableFont_wght.ttf # Fuente local Playpen Sans (Variable)
+│
+├── data/                                 # Archivos JSON con los datos del catálogo
+│   ├── combos.json
+│   ├── desserts.json
+│   └── drinks.json
+│
+├── fonts/                                # Fuentes utilizadas en las páginas del sitio
+│
 ├── img/                                  # Logotipos, íconos SVG e imágenes de productos
+│
+├── js/                                   # Lógica de la aplicación y manejo del DOM
+│   ├── about.js
+│   ├── contact.js
+│   ├── index.js
+│   ├── products.js
+│   ├── shopping-cart-functions.js
+│   ├── shopping-cart.js
+│   ├── storage.js
+│   └── ui.js
+│
 ├── pages/
 │   ├── about.html                        # Información sobre la cafetería
 │   ├── contact.html                      # Formulario de contacto
 │   └── shopping-cart.html                # Página del carrito de compras
+│
 ├── .gitignore                            # Exclusión de archivos temporales del sistema
 ├── index.html                            # Página principal (Home)
 ├── LICENSE                               # Licencia del proyecto
