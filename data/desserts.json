@@ -2,7 +2,7 @@
     {
         "id": 1, 
         "img": {
-            "link": "img/churros.jpeg", 
+            "link": "img/churros.png", 
             "alt": "churros image"
         }, 
         "name": "CHURROS X6", 
@@ -11,7 +11,7 @@
     {
         "id": 2, 
         "img": {
-            "link": "img/brownie.jpg", 
+            "link": "img/brownie.png", 
             "alt": "brownie image"
         }, 
         "name": "BROWNIE", 
@@ -20,7 +20,7 @@
     {
         "id": 3, 
         "img": {
-            "link": "img/flan.jpg", 
+            "link": "img/flan.png", 
             "alt": "flan image"
         }, 
         "name": "FLAN", 
@@ -29,7 +29,7 @@
     {
         "id": 4, 
         "img": {
-            "link": "img/chocotorta.jpg", 
+            "link": "img/chocotorta.png", 
             "alt": "chocotorta image"
         }, 
         "name": "CHOCOTORTA", 
@@ -38,7 +38,7 @@
     {
         "id": 5, 
         "img": {
-            "link": "img/tiramisu.jpg", 
+            "link": "img/tiramisu.png", 
             "alt": "tiramisu image"
         }, 
         "name": "TIRAMISU", 
@@ -47,7 +47,7 @@
     {
         "id": 6, 
         "img": {
-            "link": "img/bread-pudding.jpg", 
+            "link": "img/bread-pudding.png", 
             "alt": "bread pudding image"
         }, 
         "name": "BREAD PUDDING", 

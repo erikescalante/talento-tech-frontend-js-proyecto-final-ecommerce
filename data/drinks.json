@@ -2,7 +2,7 @@
     {
         "id": 1, 
         "img": {
-            "link": "img/cappuccino.jpeg", 
+            "link": "img/cappuccino.png", 
             "alt": "cappuccino image"
         }, 
         "name": "CAPPUCCINO", 
@@ -11,7 +11,7 @@
     {
         "id": 2, 
         "img": {
-            "link": "img/espresso.jpg", 
+            "link": "img/espresso.png", 
             "alt": "espresso image"
         }, 
         "name": "ESPRESSO", 
@@ -20,7 +20,7 @@
     {
         "id": 3, 
         "img": {
-            "link": "img/caramel-latte.jpg", 
+            "link": "img/caramel-latte.png", 
             "alt": "caramel latte image"
         }, 
         "name": "CARAMEL LATTE", 
@@ -29,7 +29,7 @@
     {
         "id": 4, 
         "img": {
-            "link": "img/te.webp", 
+            "link": "img/tea.png", 
             "alt": "tea image"
         }, 
         "name": "TEA", 
@@ -47,7 +47,7 @@
     {
         "id": 6, 
         "img": {
-            "link": "img/americano.jpg", 
+            "link": "img/americano.png", 
             "alt": "americano coffee image"
         }, 
         "name": "AMERICANO", 
