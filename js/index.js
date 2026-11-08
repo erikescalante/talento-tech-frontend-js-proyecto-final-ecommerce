@@ -1,4 +1,3 @@
-import { drinks, desserts, combos } from "./products.js";
 import { getCart } from "./storage.js";
 import { updateCounter } from "./ui.js";
 import { addToCart } from "./shopping-cart-functions.js";
@@ -9,8 +8,23 @@ const dotsForNumber = (price) => {
     return Number(price).toLocaleString('es-AR');
 };
 
-const renderHome = () => {
+const fetchJSON = async (url) => {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`Status: ${response.status}`);
+        return await response.json();
+    } catch (error) {
+        console.error(`Error cargando ${url}:`, error);
+        return [];
+    }
+};
+
+const renderHome = async () => {
     const mainContainer = document.getElementById("main-grid-index");
+    
+    const drinks = await fetchJSON("../data/drinks.json");
+    const desserts = await fetchJSON("../data/desserts.json");
+    const combos = await fetchJSON("../data/combos.json");
 
     if(drinks.length !== 0) {
         const drinksTitle = document.createElement("h2");
