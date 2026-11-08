@@ -14,7 +14,7 @@ const fetchJSON = async (url) => {
         if (!response.ok) throw new Error(`Status: ${response.status}`);
         return await response.json();
     } catch (error) {
-        console.error(`Error cargando ${url}:`, error);
+        console.error(`Error loading ${url}:`, error);
         return [];
     }
 };
