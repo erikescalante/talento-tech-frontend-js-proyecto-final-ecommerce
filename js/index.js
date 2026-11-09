@@ -111,5 +111,5 @@ document.addEventListener("DOMContentLoaded", () => {
     const cart = getCart();
     updateCounter(cart);
     renderHome();
-    renderFooter("../data/footer-links.json", "../")
+    renderFooter("./data/footer-links.json", "./")
 });
