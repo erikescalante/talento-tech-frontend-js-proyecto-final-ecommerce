@@ -5,8 +5,8 @@ export const updateCounter = (cart) => {
 
 export const showMessage = (text) => alert(text);
 
-export const renderFooter = async (jsonPath, imgPath) => {
-    const footerContainer = document.querySelector("footer");
+export const renderFooter = async (footerId, jsonPath, imgPath) => {
+    const footerContainer = document.getElementById(footerId);
     if (!footerContainer) return;
 
     try {

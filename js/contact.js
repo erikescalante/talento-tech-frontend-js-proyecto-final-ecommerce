@@ -1,5 +1,5 @@
 import { renderFooter } from "./ui.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-    renderFooter("../data/footer-links.json", "../")
+    renderFooter("footer-contact", "../data/footer-links.json", "../")
 });
