@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "img": {
+            "src": "img/whatsapp.svg",
+            "alt": "whatsapp account link (non functional)"
+        }
+    },
+    {
+        "id": 2,
+        "img": {
+            "src": "img/instagram.svg",
+            "alt": "whatsapp account link (non functional)"
+        }
+    },
+    {
+        "id": 3,
+        "img": {
+            "src": "img/linkedin.svg",
+            "alt": "whatsapp account link (non functional)"
+        },
+        "url": "https://www.linkedin.com/in/erikescalantee"
+    },
+    {
+        "id": 4,
+        "img": {
+            "src": "img/github.svg",
+            "alt": "whatsapp account link (non functional)"
+        },
+        "url": "https://github.com/erikescalante"
+    }
+]
