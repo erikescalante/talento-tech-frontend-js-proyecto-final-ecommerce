@@ -51,7 +51,8 @@ export const renderFooter = async (footerId, jsonPath, imgPath) => {
         footerContainer.appendChild(parragraph);
         footerContainer.appendChild(nav);
 
-    } catch (error) {
+    } 
+    catch (error) {
         console.error("Error rendering the footer:", error);
     }
 }
